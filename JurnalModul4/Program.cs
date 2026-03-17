@@ -12,5 +12,14 @@ class Program
 
         Console.WriteLine();
 
+        PosisiKarakterGame game = new PosisiKarakterGame();
+
+        game.PrintState();
+
+        game.TombolW();
+        game.PrintState();
+
+        game.TombolS();
+        game.PrintState();
     }
 }
